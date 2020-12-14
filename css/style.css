@@ -1,0 +1,426 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Teko:300,400,500");
+*,*:before,*:after {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+body {
+	background:url(https://www.pubgmobile.com/en/event/frostfestival/images/bg_1.jpg) no-repeat center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:100% 100%;
+	margin: 0;
+	font-family: 'Teko';
+}
+.container {
+	background: url(https://www.pubgmobile.com/en/event/frostfestival/images/m_bg_5.jpg) no-repeat center center;
+	background-size: cover;
+	position: relative;
+	margin: 0px auto;
+	margin-top: 3%;
+	max-width: 400px;
+	height: 800px;
+	border: 1px solid #fff;
+}
+.header {
+    background: url(../img/header.png) no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 210px;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 1px solid #fff;
+	display: block;
+}
+.header video {
+    width: 100%;
+	border-bottom: 1px solid #fff;
+}
+.box {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 0px;
+    position: absolute;
+    overflow: none;
+}
+.menu {
+    background: url(../img/off.png) no-repeat;
+    background-size: 100% 100%;
+    width: 31%;
+    height: 37px;
+    margin: 2px;
+    margin-bottom: 15px;
+	padding: 10px;
+    color: #000;
+    text-align: center;
+	font-weight: 500;
+    display: inline-block;
+    cursor: pointer;
+}
+.active {
+    background: url(../img/on.png) no-repeat;
+    background-size: 100% 100%;
+	height: 39px;
+	color: #000;
+}
+.scroll {
+    overflow: scroll;
+    position: relative;
+    height: 390px;
+    scrollbar-face-color: #ffbb40; 
+    scrollbar-shadow-color: #ffbb40; 
+    scrollbar-highlight-color: #ffbb40; 
+    scrollbar-3dlight-color: #ffbb40; 
+    scrollbar-darkshadow-color: #ffbb40; 
+    scrollbar-track-color: #ffbb40; 
+    scrollbar-arrow-color: #ffbb40;
+}
+.alert {
+    background: url(../img/alert.png) no-repeat;
+    background-size: 100% 100%;
+    width: 95%;
+    height: 45px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	display: block;
+}
+.alert p {
+	padding-top: 13px;
+	padding-left: 15px;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 500;
+    text-align: left;
+}
+.alert i {
+	padding-top: 15px;
+	padding-right: 10px;
+	color: #fff;
+	font-size: 17px;
+	float: right;
+}
+.item {
+	background: #000;
+	width: 30%;
+	height: 110px;
+	margin: 2px;
+	margin-bottom: 38px;
+	color: #000;
+	font-family: Teko;
+	font-weight: 300;
+	text-align: center;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display: inline-block;
+}
+.item img {
+	width: 100%;
+    height: 100%;
+	border: 1px solid #989376;
+}
+.item button {
+    background: url(../img/btn_collect.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    color: #000;
+    font-family: 'Teko';
+	font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.item .item-label {
+	background:#fca6c3;
+	width: 8%;
+	height: auto;
+	padding: 2px;
+	color: #000;
+	font-size: 15px;
+	font-family: Teko, sans-serif;
+	font-weight: 500;
+	text-align: center;
+	border: 1px solid #000;
+	position: absolute;
+}
+.item img, .item button {
+    border: 1px solid #FDD038;
+}
+.balance {
+	background: url(../img/btn_collect.jpg) no-repeat center center;
+    background-size: 100% 100%;
+	width: 93%;
+	height: 62px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 7px;
+	padding: 5px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	display: block;
+}
+.balance img {
+	width: 50px;
+	margin-right: 10px;
+	padding: 5px;
+	border: 1px solid #000;
+	border-radius: 7px;
+	float: left;
+}
+.balance-nom {
+	color: #000;
+	font-size: 20px;
+	font-family: Teko;
+	font-weight: 500;
+	text-align: left;
+}
+.balance-detail {
+	width: auto;
+	height: auto;
+	padding-top: 2px;
+	padding-left: 5px;
+	padding-bottom: 0px;
+	color: #000;
+	font-size: 15px;
+	font-family: Teko;
+	font-weight: 500;
+	text-align: center;
+	border-left: 3px solid #000;
+	line-height: 15px;
+	float: left;
+}
+.balance button {
+	background: none;
+	width: 25%;
+	height: auto;
+	margin-top: -22px;
+	padding: 7px;
+	color: #000;
+	font-size: 15px;
+	font-family: Teko;
+	font-weight: 500;
+	text-align: center;
+	border: 1px solid #000;
+	border-radius: 5px;
+	outline: none;
+	float: right;
+}
+.popup {
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:9999;
+	background-color:rgba(0, 0, 0, 0.4);
+}
+.nav-popup {
+	height: auto;
+	border: 4px;
+	padding:10px;
+}
+.nav-popup-title {
+	padding-top: -2px;
+	padding-left: 5px;
+	color: #fff;
+	font-size: 20px;
+	font-family: Teko;
+	text-align: left;
+	line-height: 15px;
+}
+.popup-box {
+    background: url(../img/popup.png) no-repeat center;
+    background-size: 100% 100%;
+	width: 390px;
+	height: auto;
+	position: relative;
+	margin: 50px auto;
+	margin-top: 15%;
+	text-align: center;
+	font-family:'Teko';
+	color:#fff;
+}
+.popup-alert {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	color: #fff;
+	font-size: 18px;
+    font-family: 'Teko';
+	text-align: center;
+}
+.popup-item {
+	width:23%;
+	height:85px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 17px;
+	border: 1px solid #fff;
+	display: block;
+}
+.popup-btn {
+    background: url(../img/on.png) no-repeat center;
+	background-size: 100% 100%;
+    width: 32%;
+    height: auto;
+	margin: 5px;
+    margin-bottom: 15px;
+	padding: 8px;
+	color: #000;
+	font-size: 17px;
+    font-family: 'Teko';
+	font-weight: 500;
+	line-height: 20px;
+    outline: none;
+	border: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.btn-login {
+    width: 90%;
+    height: auto;
+    padding: 8px;
+    margin-bottom: 3px;
+    color: #000;
+    font-family: 'Teko';
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    display: inline-block;
+}
+.btn-login i {
+    color: #fff;
+    font-size: 20px;
+    float: left;
+}
+.facebook {
+    background: #3b5998;
+    color: #fff;
+}
+.twitter {
+    background: #08a0e9;
+    color: #fff;
+}
+.popup-close {
+	width:20px;
+	height:20px;
+	color:#fff;
+	text-align:center;
+	position:absolute;
+	top:2px;
+	right:10px;
+	display:block;
+}
+.popup-close i {
+	color:#fff;
+	font-size: 25px;
+}
+.input-anjir {
+	background: url(../img/btn_collect.jpg) no-repeat center;
+    background-size: 100% 100%;
+	width: 94%;
+	height: auto;
+	padding: 6px;
+	font-size:15px;
+	font-family: Teko;
+	font-weight: 500;
+	color: #000;
+	margin-bottom: 3px;
+	border: 1px solid #FDD038;
+	position: relative;
+	outline: none;
+}
+.input-anjir::placeholder {
+	color: #000;
+}
+.select-anjir {
+	background: url(../img/btn_collect.jpg) no-repeat center;
+    background-size: 100% 100%;
+	width: 94%;
+	height: auto;
+	padding: 4px;
+	font-size:15px;
+	font-family: Teko;
+	font-weight: 500;
+	color: #000;
+	margin-bottom: 3px;
+	border: 1px solid #FDD038;
+	position: relative;
+	outline: none;
+}
+.finish-wrapper {
+	background: url(../img/popup.png) no-repeat center;
+    background-size: 100% 100%;
+	width: 95%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	color: #fff;
+	font-size: 15px;
+    font-family: 'Teko';
+	text-align: left;
+	display: block;
+}
+.finish-btn {
+    background: url(../img/on.png) no-repeat center;
+    background-size: 100% 100%;
+    width: 31%;
+    height: 38px;
+	margin-left: auto;
+	margin-right: auto;
+    outline: none;
+	border: none;
+    display: inline-block;
+    cursor: pointer;
+	display: block;
+}
+.finish-btn span {
+	color: #000;
+    font-family: 'Teko';
+	font-weight: 500;
+	line-height: 5px;
+}
+::-webkit-scrollbar { 
+    display: none;
+    width: 0px;
+}
+@media only screen and (max-width:600px) {
+    .container {
+        width: 100%;
+        height: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+		border: none;
+        border-radius: 0px;
+        padding: 0px;
+    }
+    .header {
+        height: 200px;
+    }
+    .scroll {
+        height: 245px;
+    }
+    .item {
+        height: 100px;
+    }
+	.item .item-name {
+		width: 8%;
+	}
+    .popup-box {
+		width: 350px;
+		margin-top:50%;
+	}
+	.popup-item {
+		width: 25%;
+		height: 80px;
+	}
+	form button {
+	    margin-top: 5px;
+	}
+}
